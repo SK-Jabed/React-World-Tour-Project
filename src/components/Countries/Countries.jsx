@@ -19,7 +19,6 @@ const Countries = () => {
         const newVisitedCountries = [...visitedCountries, country];
         setVisitedCountries(newVisitedCountries);
     }
-
     
     return (
         <div>
@@ -39,8 +38,7 @@ const Countries = () => {
                     country={country}
                     handleVisitedCountry={handleVisitedCountry}></Country>)
             }
-            </div>
-            
+            </div>           
         </div>
     );
 };
