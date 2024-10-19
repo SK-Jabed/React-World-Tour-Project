@@ -10,7 +10,6 @@ const Country = ({country, handleVisitedCountry}) => {
 
     // const passWithParameters = () => handleVisitedCountry(country);
 
-    console.log(handleVisitedCountry);
     return (
         <div className={`country ${visited ? "visited" : "non-visited"}`}>
             <img src={flags.png} alt='' />
