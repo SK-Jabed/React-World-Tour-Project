@@ -10,3 +10,9 @@
     color: black;
     font-weight: bold;
 }
+
+.visited-flags-container img {
+    width: 100px;
+    height: 60px;
+    margin: 5px;
+}
