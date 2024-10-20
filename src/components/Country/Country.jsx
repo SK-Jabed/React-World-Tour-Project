@@ -12,7 +12,7 @@ const Country = ({country, handleVisitedCountry, handleVisitedFlags}) => {
 
     return (
         <div className={`country ${visited ? "visited" : "non-visited"}`}>
-            <img src={flags.png} alt='' />
+            <img style={{width: "350px", height: "220px"}} src={flags.png} alt='' />
             <h2 style={{color: visited ? "Purple" : "white"}}>Name: {name?.common}</h2>
             <p>Population: {population}</p>
             <p>Area: {area}</p>
@@ -25,5 +25,6 @@ const Country = ({country, handleVisitedCountry, handleVisitedFlags}) => {
         </div>
     );
 };
+
 
 export default Country;
